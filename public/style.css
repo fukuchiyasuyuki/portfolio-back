@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.post{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.postForm-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.postForm-field input{
+    padding: 10px;
+}
+
+.postForm-field textarea{
+    padding: 10px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>管理者画面</title>
+</head>
+<body>
+    <div class="post">
+        <h2 class="post-title">管理者画面</h2>
+        <div class="postForm">
+            <h3 class="postForm-title">記事データ投稿</h3>
+            <h3 class="postForm-title">記事データ投稿</h3>
+            <form class="postForm-ui" id="form">
+                <div class="postForm-field">
+                    <label for="title">タイトル</label>
+                    <input type="text" id="title">
+                </div>
+                <div class="postForm-field">
+                    <label for="date">日付</label>
+                    <input type="text" id="date">
+                </div>
+                <div class="postForm-field">
+                    <label for="url">URL</label>
+                    <input type="text" id="url">
+                </div>
+                <div class="postForm-field">
+                    <label for="image">画像</label>
+                    <input type="file" id="image">
+                </div>
+                <div class="postForm-field">
+                    <label for="message">紹介文</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" value="データを送信">
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
